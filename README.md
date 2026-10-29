@@ -1,7 +1,7 @@
 # WiFiSetup
 
 [![License: LGPL v3](https://img.shields.io/badge/License-LGPL_v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)
-[![PlatformIO Registry](https://badges.registry.platformio.org/packages/serhiile/library/WiFiSetup.svg)](https://registry.platformio.org/libraries/serhiile/WiFiSetup)
+[![PlatformIO Registry](https://badges.registry.platformio.org/packages/slebedenko/library/WiFiSetup.svg)](https://registry.platformio.org/libraries/slebedenko/WiFiSetup)
 [![Framework](https://img.shields.io/badge/Framework-Arduino-blue)](https://www.arduino.cc/)
 [![Platform ESP8266](https://img.shields.io/badge/Platform-ESP8266-orange.svg)](https://espressif.com/)
 [![Platform ESP32](https://img.shields.io/badge/Platform-ESP32-red.svg)](https://espressif.com/)
