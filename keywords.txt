@@ -1,0 +1,28 @@
+#######################################
+# Syntax Highlighting Table For WiFiSetup
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+WiFiSetup	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+autoConnect	KEYWORD2
+getWiFiIsSaved	KEYWORD2
+getWiFiSSID	KEYWORD2
+getWiFiPass	KEYWORD2
+resetSettings	KEYWORD2
+setWiFiAutoReconnect	KEYWORD2
+setEnableConfigPortal	KEYWORD2
+setConfigPortalBlocking	KEYWORD2
+startConfigPortal	KEYWORD2
+stopConfigPortal	KEYWORD2
+getConfigPortalActive	KEYWORD2
+process	KEYWORD2
+onSave	KEYWORD2
+

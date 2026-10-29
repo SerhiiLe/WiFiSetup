@@ -1,17 +1,41 @@
 {
   "name": "WiFiSetup",
   "version": "1.0.0",
-  "description": "Lightweight, non-blocking captive portal WiFi configuration library for ESP8266 and ESP32",
-  "keywords": ["wifi", "wifimanager", "captive portal", "esp8266", "esp32", "setup"],
+  "description": "Lightweight, non-blocking captive portal Wi-Fi configuration library for ESP8266 and ESP32. Minimal flash footprint, pure PROGMEM gzip UI, on-the-fly AP switching.",
+  "keywords": [
+    "wifi",
+    "wifimanager",
+    "captive-portal",
+    "esp8266",
+    "esp32",
+    "esp32-c3",
+    "configuration",
+    "network"
+  ],
   "authors": [
     {
-      "name": "SerhiiLe"
+      "name": "Serhii Lebedenko",
+      "email": "slebedenko@gmail.com",
+      "url": "https://github.com/SerhiiLe"
     }
   ],
-  "frameworks": "arduino",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SerhiiLe/WiFiSetup.git"
+  },
+  "homepage": "https://github.com/SerhiiLe/WiFiSetup",
+  "license": "LGPL-3.0",
+  "frameworks": [
+    "arduino"
+  ],
   "platforms": [
     "espressif8266",
     "espressif32"
+  ],
+  "headers": [
+    "WiFiSetup.h"
+  ],
+  "examples": [
+    "examples/*/*.ino"
   ]
 }
-
