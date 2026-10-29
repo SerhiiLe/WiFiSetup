@@ -206,8 +206,9 @@ void WiFiSetup::_setupWebServer() {
 }
 
 void WiFiSetup::_handleRoot() {
+    _server->sendHeader("Content-Encoding", "gzip");
     _server->sendHeader("Cache-Control", "no-cache, no-store, must-revalidate");
-    _server->send_P(200, "text/html", PORTAL_HTML);
+    _server->send_P(200, "text/html", reinterpret_cast<const char*>(PORTAL_HTML_GZ), PORTAL_HTML_GZ_LEN);
 }
 
 void WiFiSetup::_handleScan() {
